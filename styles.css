@@ -1,0 +1,38 @@
+/* Mengatur gaya umum website */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+/* Mengatur kontainer utama agar terlihat rapi */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Mengatur tampilan teks motivasi */
+#motivasi {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Mengatur tampilan teks jumlah pengunjung */
+#visitorCount {
+  font-weight: bold;
+  color: #d9534f; /* Warna merah - bebas diubah sesuai selera */
+}
+
+/* Style footer sederhana */
+.footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #777;
+}
